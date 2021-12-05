@@ -16,3 +16,13 @@ set the **DB_URI** to your database uri
 ```bash
 python main.py
 ```
+## API Endpoints
+1. / method POST
+   content-type : json/application
+   data_format = {"url": url_to_short }
+   
+2. short url/stats  GET
+   get all the stats about the url
+   
+3. /search?q="keyword" GET
+   get all the urls having a keyword specified in the q
