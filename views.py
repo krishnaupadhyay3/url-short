@@ -42,6 +42,11 @@ class UrlShortAPI(MethodView):
             base64_url = base64_url_hash[:8]
         return base64_url
 
+    def get(self):
+        return """
+        hello url shortner
+        """
+
 
 class UrlRedirectAPI(MethodView):
     name = 'urlredirect'
