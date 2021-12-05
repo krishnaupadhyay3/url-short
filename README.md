@@ -14,7 +14,7 @@ set the **DB_URI** to your database uri
 
 ## Running
 ```bash
-python main.py
+python wsgi.py
 ```
 ## API Endpoints
 1. POST   /   
