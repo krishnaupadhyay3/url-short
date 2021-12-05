@@ -17,11 +17,11 @@ set the **DB_URI** to your database uri
 python main.py
 ```
 ## API Endpoints
-1. / method POST
+1. /   POST
    content-type : json/application
    data_format = {"url": url_to_short }
    
-2. short url/stats  GET
+2. short_url/stats  GET
    get all the stats about the url
    
 3. /search?q="keyword" GET
